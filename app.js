@@ -90,13 +90,7 @@ cardBtn.forEach((btn, btnI) => {
                 <img class="modal-img" src="${el.img}" alt="">
                 <h2>${el.title}</h2>
                 <span>Level: ${el.level}</span>
-                <button id="close">Yopish</button>
                 `
-                const closeBtn = document.querySelectorAll('#close')
-
-                closeBtn.forEach((cls)=> {
-                    cls.addEventListener('click', ()=> closeModal())
-                })
             }
         })
     })
