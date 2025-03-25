@@ -7,7 +7,7 @@ tg.MainButton.show()
 
 tg.MainButton.onClick(()=> {
     let data = {
-        stars: 1
+        stars: 100
     }
     tg.sendData(JSON.stringify(data))
 })
